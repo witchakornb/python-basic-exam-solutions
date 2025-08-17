@@ -20,10 +20,10 @@ weight4 = float(input("Enter weight 4 : "))
 # คำนวณผลรวม
 total = weight1 + weight2 + weight3 + weight4
 
-# แสดงผล (จัดความกว้างช่องชื่อผลไม้ 15 ตัวอักษร เพื่อให้ดูตรงง่าย)
-print(f"{item1:<15}{weight1:>10.2f}")
-print(f"{item2:<15}{weight2:>10.2f}")
-print(f"{item3:<15}{weight3:>10.2f}")
-print(f"{item4:<15}{weight4:>10.2f}")
+# แสดงผล (ใช้ Tab คั่นระหว่างชื่อกับน้ำหนัก)
+print(f"{item1}\t{weight1:.2f}")
+print(f"{item2}\t{weight2:.2f}")
+print(f"{item3}\t{weight3:.2f}")
+print(f"{item4}\t{weight4:.2f}")
 print("---------------------------")  # ตามที่ระบุให้ copy เลย
-print(f"{'total':<15}{total:>10.2f}")
+print(f"total\t{total:.2f}")
