@@ -15,9 +15,25 @@ python bonus1_vending_machine.py
 python bonus2_pyramid_legend.py
 ```
 
+## Quick Code Links / ลิงก์เปิดโค้ดเร็ว
+
+| Problem / หัวข้อ | File |
+|------------------|------|
+| Problem 1: Fruit Basket (ตะกร้าผลไม้) | [problem1_fruit_basket.py](problem1_fruit_basket.py) |
+| Problem 2: Meatball Sticks (ลูกชิ้นเนื้อล้วนๆ) | [problem2_meatballs.py](problem2_meatballs.py) |
+| Problem 3: Discount System (ระบบคำนวณส่วนลด) | [problem3_shop_discount.py](problem3_shop_discount.py) |
+| Problem 4: Grade Report (รายงานเกรด) | [problem4_grade_report.py](problem4_grade_report.py) |
+| Bonus 1: Vending Machine (เครื่องกดเครื่องดื่ม) | [bonus1_vending_machine.py](bonus1_vending_machine.py) |
+| Bonus 2: Pyramid Legend (พีระมิดตำนาน) | [bonus2_pyramid_legend.py](bonus2_pyramid_legend.py) |
+
+เปิดบน GitHub: เพิ่มโดเมนหน้าไฟล์ เช่น  
+`https://github.com/witchakornb/python-basic-exam-solutions/blob/main/problem1_fruit_basket.py`
+
 ---
 
 ## Problem 1: ตะกร้าผลไม้
+
+โค้ด: [problem1_fruit_basket.py](problem1_fruit_basket.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/problem1_fruit_basket.py>
 
 เป้าหมาย: ฝึกการรับค่าหลายครั้ง, แปลงเป็นตัวเลขทศนิยม, รวมผล, จัดรูปแบบการแสดงผลให้อ่านง่าย
 
@@ -58,6 +74,8 @@ python bonus2_pyramid_legend.py
 
 ## Problem 2: ลูกชิ้นเนื้อล้วนๆ
 
+โค้ด: [problem2_meatballs.py](problem2_meatballs.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/problem2_meatballs.py>
+
 เป้าหมาย: ฝึกคิดคณิตแบบง่าย + การปัดขึ้น (ceiling) โดยไม่ใช้ฟังก์ชันสำเร็จ (เพื่อเข้าใจตรรกะ)
 
 โจทย์สรุป: ต้องใช้ลูกชิ้นทั้งหมดกี่ลูก -> `needed = m * k`. 1 ถุงมี `n` ลูก ต้องใช้กี่ถุง (ปัดขึ้น)
@@ -96,6 +114,8 @@ Common mistakes:
 
 ## Problem 3: ระบบคำนวณส่วนลด
 
+โค้ด: [problem3_shop_discount.py](problem3_shop_discount.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/problem3_shop_discount.py>
+
 เป้าหมาย: ฝึกการซ้อนเงื่อนไข (nested / chained if) และการวิเคราะห์ช่วง (range) ของยอดซื้อ
 
 ขั้นตอนหลัก:
@@ -105,13 +125,13 @@ Common mistakes:
 3. ถ้าเป็นสมาชิก:
 
 	- >= 1000 → 20%
-	- 500–999 → 10%
-	- น้อยกว่านั้น → 0
+	- >= 500–999 → 10%
+	- >= น้อยกว่านั้น → 0
 
 4. ถ้าไม่เป็นสมาชิก:
 
 	- >= 1000 → 5%
-	- อื่น ๆ → 0
+	- >= อื่น ๆ → 0
 5. คำนวณ discount, คำนวณ final = amount - discount
 6. แสดงผลด้วยทศนิยม 2 ตำแหน่ง
 
@@ -139,6 +159,8 @@ Common mistakes:
 สรุป: โจทย์นี้สอนการจัดลำดับเงื่อนไขให้ถูกเพื่อหลีกเลี่ยงผลลัพธ์ผิดพลาด
 
 ## Problem 4: รายงานเกรด
+
+โค้ด: [problem4_grade_report.py](problem4_grade_report.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/problem4_grade_report.py>
 
 เป้าหมาย: ฝึก loop รับข้อมูลซ้ำจนผู้ใช้หยุด, เก็บข้อมูลคู่ขนาน (parallel lists), คำนวณค่าเฉลี่ย, หา max/min ด้วยมือ
 
@@ -184,6 +206,8 @@ Common mistakes:
 
 ## Bonus 1: เครื่องกดเครื่องดื่ม
 
+โค้ด: [bonus1_vending_machine.py](bonus1_vending_machine.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/bonus1_vending_machine.py>
+
 เป้าหมาย: ฝึก if/elif หลายทาง + เงื่อนไข out of stock + การคำนวณราคาจากจำนวน
 
 แนวคิดหลัก: แยกสินค้าเป็นตัวแปร (ง่ายชัด แต่ซ้ำ) → ตรวจหมายเลข → ตรวจสต็อก → ขายหรือปฏิเสธ
@@ -211,6 +235,8 @@ Common mistakes:
 สรุป: เป็นสะพานไปสู่การใช้โครงสร้างข้อมูลแบบ dynamic ในเวอร์ชันถัดไป
 
 ## Bonus 2: พีระมิดตำนาน
+
+โค้ด: [bonus2_pyramid_legend.py](bonus2_pyramid_legend.py) | GitHub: <https://github.com/witchakornb/python-basic-exam-solutions/blob/main/bonus2_pyramid_legend.py>
 
 เป้าหมาย: ผสานคณิต (ผลบวก 1..N), เงื่อนไขคู่/คี่, การสร้าง pattern ด้วยลูปซ้อน และการควบคุมทิศทาง
 
